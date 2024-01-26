@@ -2,7 +2,9 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div>AndrewDucNguyen</div>
+        <div className='mx-auto w-full px-16 mt-16'>
+            <a className='font-bold' href="/">Andrew<span className='font-normal'>Duc</span>Nguyen</a>
+        </div>
     )
 }
 
