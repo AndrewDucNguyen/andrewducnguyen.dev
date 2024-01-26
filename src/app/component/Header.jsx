@@ -7,8 +7,8 @@ const Header = () => {
             <div className='topHeader mb-16'>
                 <a className='font-bold' href="/">Andrew<span className='font-normal'>Duc</span>Nguyen</a>
             </div>
-            <div className='bottomHeader flex flex-row justify-between'>
-                <div className='flex gap-x-6'>
+            <div className='bottomHeader flex flex-row justify-between items-center'>
+                <div className='flex gap-x-6 items'>
                     <a href='https://www.instagram.com/_andrewducnguyen/' target="_blank" rel="noopener noreferrer">
                         <Instagram color='#d4d4d4' />
                     </a>
@@ -19,7 +19,7 @@ const Header = () => {
                         <Github color='#d4d4d4' />
                     </a>
                 </div>
-                <hr className='max-w-80 h-[.05rem] w-full border-none bg-[#d4d4d4]' />
+                <hr className='hidden md:flex max-w-80 h-[.05rem] w-full bg-[#d4d4d4]' />
             </div>
         </div>
     )
