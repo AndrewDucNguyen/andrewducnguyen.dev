@@ -9,7 +9,7 @@ const Header = () => {
             </div>
             <div className='bottomHeader flex flex-row justify-between items-center'>
                 <div className='flex gap-x-6 items'>
-                    <a href='https://www.instagram.com/_andrewducnguyen/' target="_blank" rel="noopener noreferrer">
+                    <a href='https://www.instagram.com/andrewducnguyen_/' target="_blank" rel="noopener noreferrer">
                         <Instagram color='#d4d4d4' />
                     </a>
                     <a href='https://www.linkedin.com/in/andrew-nguyen-b4038912b/' target="_blank" rel="noopener noreferrer">
