@@ -1,6 +1,6 @@
-import TheBubbleHouseRentals from './public/assets/TheBubbleHouseRentals.png'
-import InsuranceShoppe from './public/assets/InsuranceShoppe.png'
-import Ivbc from './public/assets/Ivbc.png'
+import TheBubbleHouseRentals from '@/assets/TheBubbleHouseRentals.png'
+import InsuranceShoppe from '@/assets/InsuranceShoppe.png'
+import Ivbc from '@/assets/Ivbc.png'
 import Image from 'next/image';
 
 const Projects = () => {
