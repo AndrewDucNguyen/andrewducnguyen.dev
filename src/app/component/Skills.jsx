@@ -1,6 +1,6 @@
 const Skills = () => {
     const skills = [
-        "JavaScript ES6+", "React", "Vue", "Next.js",
+        "JavaScript ES6+", "React", "Redux", "Vue", "Next.js",
         "TypeScript", "Tailwind CSS", "HTML/CSS", "Git",
         "Node.js", "Express", "UI/UX Design", "Figma", "RESTful API",
         "Responsive Design", "CSS Modules", "CI/CD", "AWS", "Python", "Java", "Springboot"
