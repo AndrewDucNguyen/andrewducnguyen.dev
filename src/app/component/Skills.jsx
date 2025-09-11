@@ -14,7 +14,7 @@ const Skills = () => {
                 <div className="mb-8">
                     <p className="text-gray-700 mb-10 text-lg leading-relaxed max-w-3xl">
                         From the beginning days of when I first got into software development up until now,
-                        I've learned and gained a solid understanding of web development standards, the importance
+                        I&apos;ve learned and gained a solid understanding of web development standards, the importance
                         of reusability/scalability in large enterprise applications, and how user experience means everything.
                     </p>
                 </div>
