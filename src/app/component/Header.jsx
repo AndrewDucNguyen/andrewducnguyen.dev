@@ -3,7 +3,7 @@ import { Github, Instagram, Linkedin } from 'lucide-react'
 
 const Header = () => {
     return (
-        <div className='mx-auto w-full px-20 mt-16'>
+        <div className='mx-auto w-full px-20 flex flex-col mt-16'>
             <div className='topHeader mb-16'>
                 <a className='font-bold' href="/">Andrew<span className='font-normal'>Duc</span>Nguyen</a>
             </div>

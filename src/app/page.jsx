@@ -1,12 +1,19 @@
-import Image from "next/image";
+import Hero from "@/app/component/Hero";
+import About from "@/app/component/About";
+import Projects from "@/app/component/Projects";
+import Skills from "@/app/component/Skills";
+import Contact from "@/app/component/Contact";
 
-export default function Home() {
-  return (
-    <main className="h-screen">
-      <div className="text-center mt-20">
-        <h1 className="text-4xl font-bold">Coming Soon</h1>
-        <p className="mt-4 text-gray-600">The website is under construction. Stay tuned for updates!</p>
-      </div>
-    </main>
-  );
-}
+const Home = () => {
+    return (
+        <>
+            <Hero />
+            <About />
+            <Projects />
+            <Skills />
+            <Contact />
+        </>
+    );
+};
+
+export default Home;
