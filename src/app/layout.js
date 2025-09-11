@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Andrew Duc Nguyen",
   description: "Portfolio site",
+  icons: {
+    icon: "/favicon.ico", // path inside /public
+  },
 };
 
 export default function RootLayout({ children }) {
