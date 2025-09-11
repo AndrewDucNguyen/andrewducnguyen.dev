@@ -41,11 +41,11 @@ const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {projects.map((project) => (
                         <div key={project.id} className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                            <div className="h-[240px] overflow-hidden">
+                            <div className="h-[240px] overflow-hidden pointer-events-none">
                                 <Image
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105 pointer-events-none"
                                 />
                             </div>
                             <div className="p-6">

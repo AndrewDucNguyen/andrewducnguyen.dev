@@ -10,7 +10,7 @@ const About = () => {
                         <Image
                             src={me}
                             alt="Andrew Duc Nguyen"
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover pointer-events-none"
                         />
                     </div>
 
