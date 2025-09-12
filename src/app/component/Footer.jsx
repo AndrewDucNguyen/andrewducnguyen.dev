@@ -3,7 +3,7 @@ import { Github, Instagram, Linkedin } from 'lucide-react'
 
 const Header = () => {
     return (
-        <div className='mx-auto w-full px-20 flex flex-col mt-16'>
+        <footer className='w-full mx-auto px-4 md:px-20 flex flex-col mt-16'>
             <div className='topHeader flex flex-row justify-between items-center'>
                 <hr className='hidden md:flex max-w-80 h-[.05rem] w-full bg-[#d4d4d4]' />
                 <div className='flex gap-x-6 items'>
@@ -19,10 +19,10 @@ const Header = () => {
                     </a>
                 </div>
             </div>
-            <div className='bottomHeader flex justify-end my-16'>
+            <div className='bottomHeader flex justify-end my-8 md:my-16'>
                 <a className='font-bold' href="/">Andrew<span className='font-normal'>Duc</span>Nguyen</a>
             </div>
-        </div>
+        </footer>
     )
 }
 

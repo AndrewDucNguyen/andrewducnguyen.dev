@@ -3,8 +3,8 @@ import { Github, Instagram, Linkedin } from 'lucide-react'
 
 const Header = () => {
     return (
-        <div className='mx-auto w-full px-20 flex flex-col mt-16'>
-            <div className='topHeader mb-16'>
+        <header className='mx-auto w-full px-4 md:px-20 flex flex-col mt-8 md:mt-16'>
+            <div className='topHeader mb-8 md:mb-16'>
                 <a className='font-bold' href="/">Andrew<span className='font-normal'>Duc</span>Nguyen</a>
             </div>
             <div className='bottomHeader flex flex-row justify-between items-center'>
@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
                 <hr className='hidden md:flex max-w-80 h-[.05rem] w-full bg-[#d4d4d4]' />
             </div>
-        </div>
+        </header>
     )
 }
 
