@@ -4,7 +4,7 @@ const Hero = () => {
             <div className="w-full max-w-[1400px] mx-auto px-4 md:px-8">
                 <div className="max-w-4xl">
                     <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-8 tracking-tight">
-                        Yo, I&apos;m Andrew. <br />
+                        Hi, I&apos;m Andrew. <br />
                         <span className="text-black">Software Engineer</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-gray-600 max-w-2xl leading-relaxed">
