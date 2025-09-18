@@ -18,8 +18,8 @@ const Contact = () => {
                             </div>
                             <div>
                                 <p className="text-sm text-gray-500 mb-1">Email</p>
-                                <a href="mailto:anguyen0615@gmail.com" className="text-lg font-medium hover:text-gray-600 transition-colors">
-                                    anguyen0615@gmail.com
+                                <a href="mailto:andrewducnguyen@outlook.com" className="text-md font-medium hover:text-gray-600 transition-colors">
+                                    andrewducnguyen@outlook.com
                                 </a>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <p className="text-sm text-gray-500 mb-1">Phone</p>
-                                <a href="tel:+13163124946" className="text-lg font-medium hover:text-gray-600 transition-colors">
+                                <a href="tel:+13163124946" className="text-md font-medium hover:text-gray-600 transition-colors">
                                     +1 (316) 312-4946
                                 </a>
                             </div>
@@ -39,7 +39,7 @@ const Contact = () => {
 
                     <div className="text-center">
                         <a
-                            href="mailto:anguyen0615@gmail.com"
+                            href="mailto:andrewducnguyen@outlook.com"
                             className="group inline-flex items-center px-8 py-4 font-medium bg-black text-white rounded hover:bg-gray-800 transition-all duration-300"
                         >
                             Say Hello

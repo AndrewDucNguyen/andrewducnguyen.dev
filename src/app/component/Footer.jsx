@@ -4,7 +4,7 @@ import { Github, Instagram, Linkedin } from 'lucide-react'
 const Header = () => {
     return (
         <footer className='w-full mx-auto px-4 md:px-20 flex flex-col mt-16'>
-            <div className='topHeader flex flex-row justify-between items-center'>
+            <div className='topHeader flex flex-row justify-end md:justify-between items-center'>
                 <hr className='hidden md:flex max-w-80 h-[.05rem] w-full bg-[#d4d4d4]' />
                 <div className='flex gap-x-6 items'>
                     <a href='https://www.instagram.com/andrewducnguyen_/' target="_blank" rel="noopener noreferrer">
