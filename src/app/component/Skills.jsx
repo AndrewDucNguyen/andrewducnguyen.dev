@@ -3,7 +3,7 @@ const Skills = () => {
         "JavaScript ES6+", "React", "Redux", "Vue", "Next.js",
         "TypeScript", "Tailwind CSS", "HTML/CSS", "Git",
         "Node", "Express", "UI/UX Design", "Figma", "RESTful API",
-        "Responsive Design", "CSS Modules", "CI/CD", "AWS", "Python", "Java", "Springboot"
+        "Responsive Design", "CSS Modules", "CI/CD", "AWS", "Python", "Java", "Springboot", "scss", "sass"
     ];
 
     return (
